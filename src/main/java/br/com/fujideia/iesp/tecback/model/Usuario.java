@@ -14,6 +14,11 @@ public class Usuario {
     @Id
     @GeneratedValue
     private Integer id;
-    private String nome;
+    private Integer dataNasc;
     private String email;
+    private String nome;
+    private String senha;
+    private String CPF;
+
+
 }
